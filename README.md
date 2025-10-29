@@ -1,4 +1,4 @@
-# 🧩 Go Board — Simple Kanban Task Manager (Go + Vanilla JS)
+# 🧩 Go Board — Simple Test Mekari (Go)
 
 A lightweight **Kanban-style task board** built with **Go (Golang)** on the backend and **HTML + JavaScript** on the frontend.  
 Supports creating, filtering, and organizing tasks visually by status: **To Do**, **In Progress**, and **Done**.
@@ -21,7 +21,7 @@ Supports creating, filtering, and organizing tasks visually by status: **To Do**
 ### 1️⃣ Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/go-board-app.git
+git clone https://github.com/fauzanhabib/mekaritest.git
 cd go-board-app
 ```
 
@@ -31,19 +31,10 @@ cd go-board-app
 go mod tidy
 ```
 
-### 3️⃣ Configure environment
-
-Create a `.env` file in the root directory:
-
-```bash
-DATABASE_URL=postgres://user:password@localhost:5432/board_db?sslmode=disable
-PORT=8080
-```
-
 ### 4️⃣ Run the backend server
 
 ```bash
-go run ./cmd/server
+go run  main.go
 ```
 
 Your API will run at:  
@@ -84,11 +75,6 @@ Located in:
 - Filter tasks by user
 - Drag and drop between columns
 - Real-time UI refresh after create/filter
-
-Run locally by simply opening in your browser:
-```
-open web/index.html
-```
 
 Make sure your backend API is running at `http://localhost:8080`.
 
@@ -146,5 +132,5 @@ func CORSMiddleware() gin.HandlerFunc {
 
 **Fauzan Habiburrohman**  
 Developer Engineer — 7 years experience  
-📧 your.email@example.com  
-🌐 your-portfolio-or-github-link
+📧 fauzanhabib20@gmail.com  
+🌐 https://github.com/fauzanhabib
