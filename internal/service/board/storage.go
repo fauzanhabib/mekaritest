@@ -1,3 +1,4 @@
 package board
 
-var Boards []Board
+// Initialize as an empty, non-nil slice
+var Boards []Board = make([]Board, 0)

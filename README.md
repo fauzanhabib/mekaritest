@@ -34,7 +34,7 @@ go mod tidy
 ### 4️⃣ Run the backend server
 
 ```bash
-go run  main.go
+go run ./cmd/server
 ```
 
 Your API will run at:  
@@ -66,15 +66,18 @@ Content-Type: application/json
 ---
 
 ## 💻 Frontend
-
-Located in:  
-`/web/index.html`
+access another folder FE
 
 ### Features
 - Create new tasks
 - Filter tasks by user
 - Drag and drop between columns
 - Real-time UI refresh after create/filter
+
+Run locally by simply opening in your browser:
+```
+open web/index.html
+```
 
 Make sure your backend API is running at `http://localhost:8080`.
 
@@ -133,4 +136,4 @@ func CORSMiddleware() gin.HandlerFunc {
 **Fauzan Habiburrohman**  
 Developer Engineer — 7 years experience  
 📧 fauzanhabib20@gmail.com  
-🌐 https://github.com/fauzanhabib
+🌐 
